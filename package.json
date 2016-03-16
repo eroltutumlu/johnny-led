@@ -1,0 +1,25 @@
+{
+  "name": "basic-led",
+  "version": "1.0.0",
+  "description": "It is just test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Erol",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eroltutumlu/johnny-led.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eroltutumlu/johnny-led/issues"
+  },
+  "homepage": "https://github.com/eroltutumlu/johnny-led#readme",
+  "dependencies": {
+    "assert": "^1.3.0",
+    "firebase": "^2.4.1",
+    "johnny-five": "^0.9.30",
+    "mongodb": "^2.1.7"
+  }
+}
