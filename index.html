@@ -1,15 +1,44 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title></title>
+        <title>Internet Of Things Node.js</title>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     </head>
     <body>
     
-        <button id="btnLedOpen">AÇ</button>
-        <button id="btnLedClose">KAPAT</button>
-        <div id="erol"></div>
+        <div class="container">
+            <div class="jumbotron">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="page-header">
+                            <h2>Mini Internet of things with node.js</h2>
+                        </div>
+                        <div class="page-img">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img height="250" src="http://www.tandyonline.co.uk/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/5/m/5mm-red-led-.png">
+                       <div class="btn-group-vertical">
+                          <button type="button" id="btnLedOpen" class="btn btn-danger">Open</button>
+                          <button type="button" id="btnLedClose"  class="btn btn-success">Close</button>
+                       </div>
+                        <div id="ledStatus">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
         <script src="https://cdn.firebase.com/js/client/2.4.1/firebase.js"></script>
         <script src="main.js"></script>
+        
     </body>
 </html>
